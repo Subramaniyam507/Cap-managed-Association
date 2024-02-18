@@ -1,0 +1,12 @@
+###getbooks
+http://localhost:4004/odata/v4/demo/Books
+
+###getmanaged association
+http://localhost:4004/odata/v4/demo/Books?$expand=author
+
+###get authors
+http://localhost:4004/odata/v4/demo/Authors
+
+###reverse association
+http://localhost:4004/odata/v4/demo/Authors?$expand=books
+
